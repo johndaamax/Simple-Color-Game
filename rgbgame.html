@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="author" content="johndaamax" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Color Guessing Game</title>
+		<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
+		<link rel="stylesheet" type="text/css" href="rgbgame.css" />
+		<link rel="shortcut icon" type="icon" href="favicon.ico" />
+	</head>
+	<body>
+		<h1>The ultimate color <br /><span id="goalColor"></span> <br />guessing game</h1>
+		<div id="stripe">
+			<button id="reset">New Colors</button>
+			<span id="message"></span>
+			<button class="difficulty selected">Easy</button>
+			<button class="difficulty">Medium</button>
+			<button class="difficulty">Hard</button>
+		</div>
+		<div id="attemptsContainer">
+			<h2>Attempts Left:</h2>
+			<div class="attempts"></div>
+		</div>
+		<div id="mainContent">
+			<div id="squareContainer"></div>
+			<div id="scoreContainer">
+				<h3>Your score: <span id="currentScore">0</span></h3>
+			</div>
+		</div>
+
+		<script type="text/javascript" src="rgbgame.js"></script>
+	</body>
+</html>
